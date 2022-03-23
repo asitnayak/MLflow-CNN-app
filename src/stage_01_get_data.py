@@ -35,7 +35,7 @@ def main(config_path):
     else:
         logging.info(f"File name: {data_file} already present")
     
-    #Unzip
+    #Unzip operation
     unzip_data_dir = config['data']['unzip_data_dir']
     create_directories([unzip_data_dir])
     unzip_file(source=data_file_path, dest=unzip_data_dir)

@@ -28,4 +28,4 @@ def unzip_file(source: str, dest: str) -> None:
     logging.info("Extraction started...")
     with ZipFile(source, 'r') as zip_f:
         zip_f.extractall("data/")
-    logging.info(f"Extracted {source} to {dest}")
+    logging.info(f"Extracted from {source} to {dest}")
