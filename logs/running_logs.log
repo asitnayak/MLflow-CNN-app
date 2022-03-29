@@ -1,0 +1,10 @@
+[2022-03-29 23:32:03,375: INFO: stage_04_train]: 
+********************
+[2022-03-29 23:32:03,375: INFO: stage_04_train]: >>>>> stage STAGE_NAME started <<<<<
+[2022-03-29 23:32:03,384: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-29 23:32:03,384: INFO: stage_04_train]: reading the data from data\PetImages
+[2022-03-29 23:32:07,602: INFO: stage_04_train]: load the base model from data\model\init_model.h5
+[2022-03-29 23:32:07,836: INFO: stage_04_train]: training started
+[2022-03-29 23:43:06,205: INFO: stage_04_train]: trained model is saved at : data\model\trained_model.h5
+[2022-03-29 23:43:06,235: INFO: stage_04_train]: >>>>> stage STAGE_NAME completed!<<<<<
+
